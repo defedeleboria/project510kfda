@@ -26,12 +26,21 @@ El propósito de tenerlo así por separado facilita el mantenimiento, el monitor
 Criterios de evaluación:
 
 1. Calidad del código y presentación.
+   
   a. El código de extracción debe estar bien estructurado y seguir buenas prácticas de programación en Python.
+  
   b. El funcionamiento del código debe estar documentado de forma clara y concisa.
+  
 2. Implementación del programa de Extracción.
+   
   a. Justificar la técnica de extracción seleccionada.
+  
   b. El programa debe extraer los datos de la fuente seleccionada utilizando la técnica elegida.
+  
 3. Almacenamiento en Parquet.
-  a. El código debe asegurar de la existencia de los directorios donde guardará los datos, sino los debe crear automáticamente
+   
+  a. El código debe asegurar de la existencia de los directorios donde guardará los datos, sino los debe crear automáticamente.
+  
   b. El código debe pisar los datos en el directorio, o bien insertar nuevos registros según corresponda.
+  
 4. Almacenamiento de los resultados en base de datos OLAP.
